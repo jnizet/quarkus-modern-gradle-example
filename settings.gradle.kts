@@ -5,11 +5,11 @@ pluginManagement {
     }
     resolutionStrategy {
         eachPlugin {
-            if (requested.id.id == 'io.quarkus.gradle.plugin') {
+            if (requested.id.id == "io.quarkus.gradle.plugin") {
                 useModule("io.quarkus:quarkus-gradle-plugin:${requested.version}")
             }
         }
     }
 }
 
-rootProject.name = 'quarkus-modern-gradle-example'
+rootProject.name = "quarkus-modern-gradle-groovy-example"
