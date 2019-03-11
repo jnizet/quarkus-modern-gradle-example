@@ -11,8 +11,6 @@ repositories {
 }
 
 dependencies {
-    implementation platform('io.quarkus:quarkus-bom:0.11.0')
-
-    implementation 'io.quarkus:quarkus-resteasy'
-    implementation 'io.quarkus:quarkus-arc'
+    implementation 'io.quarkus:quarkus-resteasy:0.11.0'
+    implementation 'io.quarkus:quarkus-arc:0.11.0'
 }
